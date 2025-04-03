@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <ul>
+            <li><a href="portifolio.html">Home</a></li>
+            <li><a href="">Contato</a></li>
+            <li><a href="">Sobre</a></li>
+        </ul>
+        <nav>
+        </nav>
+    </header>
+    <main>
+        <article>
+        </article>
+        <form>
+            <fieldset>
+                <h4>Cadastro</h4>
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" placeholder="Digíte o seu nome:" autocomplete="on"> 
+                <br>
+                <label for="email">Email</label>
+                <input type="email" name= "email" placeholder="Digíte seu email" required/>
+
+                <br>
+
+                <label for="dt_nacimento">Data de Nascimento</label>
+                <input type="date" placeholder="Aniversário" required/>
+                <br><br>
+            </fieldset>
+            <fieldset>
+                <h4>Usuário</h4>
+                <label for="user">Usuário</label>
+                <input type="text" name="user" placeholder="Usuário">
+                <br><br>
+                <label for="password">Senha</label>
+                <input type="password" name="password" placeholder="Senha">
+                <br><br>
+                <label for="rua">Rua</label>
+                <input type="text" name="street"
+                placeholder="logradouro"
+                >
+                <br><br>
+                <label for="Num">Número</label>
+                <input type="text" name="number" placeholder="Número">
+
+                <label for="cep">Cep</label>
+                <input type="text" name="cep" size="8" maxlength="8" placeholder="Cep">
+                <br><br>
+
+                <label for="bairro"> Bairro</label>
+                <input type="text" name="bairro" size="30" maxlength="30" placeholder="Bairro">
+                <br><br>
+                <label for="cidade">Cidade</label> <br>
+                <select name="cidade" required>
+                    <option></option>
+                    <option selected>Carazinho</option>
+                    <option>Passo Fundo</option>
+                    <option disabled>Não Me Toque</option>
+                </select>
+                <br><br>
+                <label for="estado">Estado</label><br>
+                <select name="estado" required>
+                    <option></option>
+                    <option selected>Rio Grande do Sul</option>
+                    <option>Santa Catarina</option>
+                    <option disabled>Paraná</option>
+                </select>
+                <fieldset>
+                    <legend>Diversos</legend>
+                    <input type="color">
+                    <br>
+                    <input type="file"/>
+                    <br><br>
+                    <p>Aceita receber propagandas</p>
+                    <input type="radio"  id="sim" name="Propaganda">
+                    <label for="sim">Sim</label>
+                    <input type="radio" id="nao" name="Propaganda" >
+                    <label for="nao">Não</label>
+                    <br><br>
+
+                    
+                </fieldset>
+
+            </fieldset>   
+                <br><br>
+                <input type="submit" name=dt_nasc value = Enviar> 
+        </form>
+    </main>
+    <footer>
+    </footer>
+</body>
+</html>
